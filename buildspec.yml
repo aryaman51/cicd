@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Nothing to build for static HTML/JS site."
+artifacts:
+  files:
+    - '**/*'
